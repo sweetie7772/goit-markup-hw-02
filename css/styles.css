@@ -1,0 +1,81 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--navy-blue);
+}
+
+/* #region navigation */
+
+.logo-main {
+  font-size: 18px;
+}
+
+.navLink {
+  font-size: 16px;
+}
+
+/* #endregion navigation */
+
+.adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+
+/* #region Effective Solutions */
+h1 {
+  font-size: 56px;
+}
+button {
+  font-size: 16px;
+  line-height: 150%;
+  background-color: var(--navy-blue);
+}
+
+/* #endregion Effective Solutions */
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+  font-weight: 400;
+}
+
+.ourTeam {
+  background: var(--cloud);
+}
+
+footer {
+  background: var(--navy-blue);
+}
