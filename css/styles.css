@@ -65,16 +65,26 @@ body {
   letter-spacing: 0.02em;
 }
 
-:hover.adress {
+.adress-a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+:hover.adress-a {
   color: #404bbf;
 }
 
-:focus.adress {
+:focus.adress-a {
   color: #404bbf;
 }
 
 /* #region Effective Solutions */
-h1 {
+.title-first {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -152,6 +162,7 @@ footer {
 .foot-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .studio-sec {
