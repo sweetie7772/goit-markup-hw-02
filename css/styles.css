@@ -15,7 +15,7 @@
   --second-family: "Raleway", sans-serif;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -105,15 +105,17 @@ h1 {
   background-color: #2e2f42;
 }
 /* #endregion Effective Solutions */
-h2 {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   color: var(--navy-blue);
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-h3 {
+.title-third {
   font-size: 20px;
   line-height: 120%;
   color: var(--navy-blue);
@@ -121,7 +123,7 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-p {
+.parag {
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
@@ -150,4 +152,12 @@ footer {
 .foot-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.studio-sec {
+  color: #f4f4fd;
+}
+
+.our-li {
+  background-color: #ffffff;
 }
