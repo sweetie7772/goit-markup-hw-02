@@ -75,6 +75,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.adresss {
+  font-style: normal;
+}
+
 :hover.adress-a {
   color: #404bbf;
 }
