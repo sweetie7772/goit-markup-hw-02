@@ -79,11 +79,11 @@ body {
   font-style: normal;
 }
 
-:hover.adresss {
+:hover.adress-a {
   color: #404bbf;
 }
 
-:focus.adresss {
+:focus.adress-a {
   color: #404bbf;
 }
 
@@ -127,6 +127,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  display: none;
 }
 
 .title-third {
@@ -174,5 +175,5 @@ footer {
 }
 
 .our-li {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
